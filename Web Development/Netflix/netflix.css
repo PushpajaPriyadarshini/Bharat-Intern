@@ -1,0 +1,276 @@
+*{ margin: 0
+   ;
+   padding: 0%;
+
+}
+.body1{
+    margin: 0;
+    padding: 0;
+    
+    background-image:  radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url(header-image.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    overflow-x: hidden;
+    
+   
+}
+
+
+
+.navbar
+{ height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1vh;
+    align-items: center;
+    
+}
+
+
+.logo{
+    padding-top: 20px;
+    width: 12%;
+    color:rgb(222, 28, 28) ;
+    padding: 
+    auto;
+}
+.btns{
+   display: flex;
+   align-items: end;
+   justify-content: space-between;
+   gap: 15px;
+}
+.eng{
+   display: inline-block;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    border: 2px solid white;
+   padding-bottom: 8px;
+   padding-left: 19px;
+   padding-right: 19px;
+   border-radius: 4px;
+   cursor: pointer;
+
+}
+.eng:hover{
+   background-color: transparent;
+   color: whitesmoke;
+   border: 2px solid white;
+}
+ .btn_sign{
+    display: inline-block;
+    background-color: rgb(222, 28, 28);
+    color: white;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 19px;
+   padding-right: 19px;
+   border-radius: 4px;
+   cursor: pointer;
+   
+    
+
+ }
+ .btn_sign:hover{
+   background-color: transparent;
+   color: whitesmoke
+   ;
+   border: 2px solid red;
+ }
+ .container{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+justify-content: center;
+    align-items: center;
+    
+    
+    flex-direction: column;
+    
+
+ }
+ .Main{
+    color: antiquewhite;
+    text-align: center;
+    width: 50%;
+   
+    
+       
+
+ }
+.title{
+    font-size: 3.0em;
+    margin-bottom: 15px;
+
+ }
+ .title2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.35em;
+    margin-bottom: 20px;
+ }
+ .subtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+ }
+ .input{
+   display: flex;
+   justify-content: center;
+
+ }
+ .input input{
+    width: 400px;
+    height: 60px;
+    border: none;
+    font-size: 19px;
+    
+   
+ }
+ .input button{
+
+width: 200px;
+height: 60px;
+background-color: rgb(222, 28, 28);
+color: antiquewhite;
+font-size: 19px;
+border: none;
+
+ }
+ .first{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   border-top: 4px solid  grey;
+   background-color: black;
+   color: antiquewhite;
+
+ }
+ .first h1{
+   margin-top: 100px;
+   font-size: 55px;
+   
+ }
+ .first p{
+   margin-top: 40px;
+   font-size: 20px;
+   
+ }
+
+ .first img{
+   width: 44%;
+   margin-top: 30px;
+   padding: 66px;
+ }
+ .faq{
+   padding: 10px 10%;
+   text-align: center;
+   font-size: 20px;
+   background-color: black;
+   color: antiquewhite;
+   border-top: 4px solid grey;
+
+ }
+ .faq h2{
+   font-weight: 600;
+   font-size: 39px;
+
+ }
+ .que{
+   margin: 60px auto;
+   width: 100%;
+   max-width: 750px;
+ }
+ .que li{
+   list-style: none;
+   width: 100%;
+   padding: 5px;
+
+ }
+ .que li label{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   font-size: 18px;
+   font-weight: 600;
+   background: gray;
+   margin-bottom: 2px;
+   cursor: pointer;
+   position: relative;
+ }
+ label::after{
+   content: '+';
+   font-size: 34px;
+   position: absolute;
+   right: 20px;
+   
+
+ }
+ input[type='radio']{
+   display:none;
+
+ }
+ .cont{
+   
+   background: black;
+   text-align: left;
+   padding: 0 20px;
+   max-height: 0;
+   overflow: hidden;
+  
+   
+   
+
+ }
+ .footer{
+   background-color: black;
+   color: antiquewhite;
+   padding: 15px,15% 10px;
+   border-top: 6px solid #333;
+   color: #777;
+   
+
+ }
+ .footer h2{
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 29px;
+ }
+.col{
+   flex-basis: 25%;
+   flex-grow: 1;
+   margin-bottom: 30px;
+
+}
+
+.col a{
+   display: block;
+   text-decoration: none;
+   color: #777;
+   font-size: 15px;
+   margin-bottom: 30px;
+
+}
+.row{
+   align-items: flex-start;
+   padding: 10px 0;
+   display: flex;
+
+}
+.lang{
+   color: rgb(238, 228, 228);
+   padding: 10px 20px;
+   border-radius: 3px;
+   background-color: black;
+   border: 1px solid white;
+
+}
+
+.copyright{
+   font-size: 14px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+ 
